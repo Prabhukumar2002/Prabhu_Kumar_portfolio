@@ -1,0 +1,238 @@
+/* CTA */
+
+.cta-section{
+    background: linear-gradient(135deg,#0f172a,#1e3a8a,#7e22ce) !important;
+    padding:70px 20px;
+}
+
+.cta-box{
+
+    text-align:center;
+
+    color:white;
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+.cta-box h2{
+
+    font-size:52px;
+
+    font-weight:700;
+
+}
+
+.cta-box p{
+
+    font-size:22px;
+
+    margin:25px 0 40px;
+
+    opacity:.9;
+
+}
+
+/* Code Window */
+
+.code-window{
+
+    margin:40px auto;
+
+    max-width:700px;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    background:rgba(255,255,255,.15);
+
+    backdrop-filter:blur(12px);
+
+}
+
+.window-header{
+
+    padding:12px 18px;
+
+    display:flex;
+
+    gap:10px;
+
+    background:rgba(255,255,255,.12);
+
+}
+
+.window-header span{
+
+    width:12px;
+
+    height:12px;
+
+    border-radius:50%;
+
+}
+
+.red{
+
+    background:#ff5f57;
+
+}
+
+.yellow{
+
+    background:#febc2e;
+
+}
+
+.green{
+
+    background:#28c840;
+
+}
+
+.code-window pre{
+
+    color:#fff;
+
+    text-align:left;
+
+    padding:30px;
+
+    font-size:17px;
+
+    overflow:auto;
+
+}
+
+/* Footer */
+
+.footer{
+
+    background:var(--background);
+
+    padding:25px 0;
+
+}
+
+.footer-content{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+
+    color:var(--text-secondary);
+
+}
+
+.footer-icons{
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+.footer-icons a{
+
+    color:var(--text-primary);
+
+    font-size:28px;
+
+    transition:.3s;
+
+}
+
+.footer-icons a:hover{
+
+    color:var(--primary);
+
+}
+
+/* Scroll Button */
+
+.scroll-top{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:25px;
+
+    width:55px;
+
+    height:55px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:var(--primary);
+
+    color:white;
+
+    font-size:22px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+
+    cursor:pointer;
+
+    z-index:999;
+
+    transition:.3s;
+
+}
+
+.scroll-top:hover{
+
+    transform:translateY(-5px);
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.cta-section{
+
+padding:80px 20px;
+
+}
+
+.cta-box h2{
+
+font-size:34px;
+
+}
+
+.cta-box p{
+
+font-size:18px;
+
+}
+
+.code-window pre{
+
+font-size:14px;
+
+padding:20px;
+
+}
+
+.footer-content{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+}

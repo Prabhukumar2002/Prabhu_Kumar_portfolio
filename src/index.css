@@ -1,0 +1,25 @@
+:root{
+    --primary:#2563eb;
+}
+
+/* Light Theme */
+
+[data-theme="light"]{
+    --background:#f8fafc;
+    --surface:#ffffff;
+    --surface-hover:#f1f5f9;
+    --text-primary:#0f172a;
+    --text-secondary:#475569;
+    --shadow:0 10px 30px rgba(15,23,42,.08);
+}
+
+/* Dark Theme */
+
+[data-theme="dark"]{
+    --background:#0f172a;
+    --surface:#1e293b;
+    --surface-hover:#334155;
+    --text-primary:#ffffff;
+    --text-secondary:#cbd5e1;
+    --shadow:0 10px 30px rgba(0,0,0,.35);
+}

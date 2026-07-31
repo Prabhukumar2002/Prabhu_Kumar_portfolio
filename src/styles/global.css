@@ -1,0 +1,51 @@
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    background:var(--background);
+
+    color:var(--text);
+
+    font-family:Inter,sans-serif;
+
+    overflow-x:hidden;
+
+}
+
+section{
+
+    padding:100px 0;
+
+}
+
+a{
+
+    text-decoration:none;
+
+}
+
+img{
+
+    max-width:100%;
+
+}
+
+.container{
+
+    max-width:1200px;
+
+}

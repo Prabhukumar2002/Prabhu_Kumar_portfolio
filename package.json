@@ -3,10 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://prabhukumar2002.github.io/Prabhu_Kumar_portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
